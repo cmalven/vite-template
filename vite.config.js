@@ -37,6 +37,6 @@ export default defineConfig({
 				jquery: 'jQuery'
 			}
 		}),
-		sassGlobImports.default(),
+		sassGlobImports(),
 	],
 });
